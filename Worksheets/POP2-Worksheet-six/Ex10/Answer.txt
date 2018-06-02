@@ -1,0 +1,7 @@
+IntelliJ offers options to generate the :
+
+constructors
+setter
+getter
+setter and getter
+Override methods

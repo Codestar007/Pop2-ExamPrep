@@ -1,0 +1,5 @@
+1. It is not possible to override playGame(String) from RestrictedSmartPhone class.
+2. Why? Answer: Because playGame(String)in RestrictedSmartPhone clashes with
+                playGame(String). You cannot override a method and reduce visibility.
+                You can only increase the visibility. In this case, the overiding
+                method cannot be private, it has to be public.

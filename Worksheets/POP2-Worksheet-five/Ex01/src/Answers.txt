@@ -1,0 +1,9 @@
+1 Code ﬂow
+Look at the following code and write the code ﬂow
+(use the line numbers to indicate which lines are
+executed in which order) in the following situations:
+
+1. userInput is 0. Ans = 13 - 32, 36-37
+2. userInput is 2. Ans = 13 - 29, 36-37
+3. userInput is 4. Ans = 13 - 25, 36-37
+4. userInput is 6. Ans = 13 - 23, 36-37

@@ -1,0 +1,5 @@
+1.      Can you ever have a mutator method return something other than void?
+Ans.    No, except if the void declaration is removed.
+
+2.      Can you ever have an accessor method return void?
+Ans.    No.

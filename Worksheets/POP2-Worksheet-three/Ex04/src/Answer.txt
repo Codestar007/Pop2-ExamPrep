@@ -1,0 +1,6 @@
+1. PhoneLauncher script no longer works after setting playGame(String) to private.
+2. Why does this happen? A subclass does not inherit the private members of its parent class.
+3. What are the minimal changes that you need to make on class
+   SmartPhone so that the script still works?
+   Answer: Hide the private method by declaring another private method in SmartPhone with same name
+   and different method signature, then these can also be used by the subclass.

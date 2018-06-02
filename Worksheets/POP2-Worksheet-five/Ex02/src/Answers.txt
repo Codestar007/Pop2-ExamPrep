@@ -1,0 +1,4 @@
+Error:(29, 9) java: exception java.lang.NullPointerException has already been caught.
+
+The first catch "Exceptions" has already caught the exception.
+The first cath is always matched first

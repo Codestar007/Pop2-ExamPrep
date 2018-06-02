@@ -1,0 +1,2 @@
+Answer: The code will not compile because Java cannot inherit from java.lang.String.
+        String cannot be extended because it is set to final.

@@ -1,0 +1,2 @@
+1. What is wrong with the code?
+  Answer: There is no default constructor.

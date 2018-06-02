@@ -1,0 +1,8 @@
+1.  The nextInt method of the Scanner class is an an accessor because it never changes any data of the
+    Scanner class.
+
+
+2.  The nextInt method of the Random class is a mutator because it calls the next() method which in turn is
+    "implemented by class Random by atomically updating the seed".***
+
+*** Docs.oracle.com/javase/7/docs/api/java/util/Random.html.
