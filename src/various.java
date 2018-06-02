@@ -9,6 +9,16 @@ public class various {
         //System.out.println("Hello World!!");
         //System.out.println("Hello World!!   --- UPDATED");
         System.out.println(getInfo(50, "Kizi"));
+
+        ArrayList list = new ArrayList();
+        list.add("P");
+        list.add("Q");
+        list.add("R");
+        list.set(2, "s");
+        list.add(2, "T");
+        list.add("u");
+        System.out.println("ArrayList list: " + list);
+
     }
     public static String getInfo(Integer age, String myName){
         //ArrayList myList = new ArrayList(Arrays.asList("WE", "Are", "Doing", "Fine"));
