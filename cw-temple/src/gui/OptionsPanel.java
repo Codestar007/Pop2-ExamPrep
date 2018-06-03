@@ -31,7 +31,7 @@ public class OptionsPanel extends JPanel implements ActionListener {
     private String BACKGROUND_PATH = ROOT + "info_texture.png";            //Location of background image
 
     /**
-     * Constructor: an instance
+     * ConstructorExamples.Constructor: an instance
      */
     public OptionsPanel(int x, int y, int width, int height, long seed) {
         /** The slider is used to provide a value, in seconds per move, for the speed at which the

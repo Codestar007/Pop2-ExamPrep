@@ -9,7 +9,7 @@ public class PrimeDivisorList {
     MyArrayList PdList;
 
     /**
-     * Constructor
+     * ConstructorExamples.Constructor
      */
     public PrimeDivisorList() {
         // this.num = num;

@@ -29,7 +29,7 @@ public class GUI extends JFrame implements Constants {
     private TileSelectPanel tileSelect;     //Panel that provides more info on seleced tile
     private JLayeredPane master;            //The panel that holds all other panels
 
-    /* Constructor a new display for cavern canvern with the player at (playerRow, playerCol)
+    /* ConstructorExamples.Constructor a new display for cavern canvern with the player at (playerRow, playerCol)
      * using randomg number seed seed. */
     public GUI(Cavern cavern, int playerRow, int playerCol, long seed) {
         //Initialize frame

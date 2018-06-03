@@ -21,12 +21,12 @@ public class FreezingAndBoilingPoints {
             this.boilPt = boilPt;
         }
 
-        // The enum Constructor
+        // The enum ConstructorExamples.Constructor
         private double freezePt() {
             return freezePt;
         }
 
-        // The enum Constructor
+        // The enum ConstructorExamples.Constructor
         private double boilPt() {
             return boilPt;
         }

@@ -21,7 +21,7 @@ public class Edge {
     private final Node dest;
 
     /**
-     * Constructor: an edge of length len from src to dest.
+     * ConstructorExamples.Constructor: an edge of length len from src to dest.
      */
     public Edge(Node src, Node dest, int len) {
         this.src = src;
@@ -30,7 +30,7 @@ public class Edge {
     }
 
     /**
-     * Constructor: an edge like e ...
+     * ConstructorExamples.Constructor: an edge like e ...
      */
     public Edge(Edge e, Map<Node, Node> isomorphism) {
         src = isomorphism.get(e.src);

@@ -12,8 +12,8 @@ public class enum Elements {
         this.freezePt = freezePt;
         this.boilPt = boilPt;
     }
-    private double freezePt(){return freezePt; } // The enum Constructor
-    private double boilPt(){return boilPt; } // The enum Constructor
+    private double freezePt(){return freezePt; } // The enum ConstructorExamples.Constructor
+    private double boilPt(){return boilPt; } // The enum ConstructorExamples.Constructor
 
     boolean isFreezing(Double temp) {
         // TODO

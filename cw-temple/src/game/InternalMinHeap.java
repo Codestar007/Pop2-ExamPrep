@@ -27,7 +27,7 @@ class InternalMinHeap<E> {
     private Map<E, Info> map = new HashMap<>();
 
     /**
-     * Constructor: an empty heap.
+     * ConstructorExamples.Constructor: an empty heap.
      */
     public InternalMinHeap() {
     }
@@ -194,7 +194,7 @@ class InternalMinHeap<E> {
         private double priority; // priority of this element
 
         /**
-         * Constructor: an instance in b[i] with priority p.
+         * ConstructorExamples.Constructor: an instance in b[i] with priority p.
          */
         private Info(int i, double p) {
             index = i;

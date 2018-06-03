@@ -45,7 +45,7 @@ public class TileSelectPanel extends JPanel {
     private GUI gui;                        //Information about the larger GUI
     private Node selectedNode;        //The currently selected node
 
-    /* Constructor: an instance at (x, y) with size (width, height) on Guie gui. */
+    /* ConstructorExamples.Constructor: an instance at (x, y) with size (width, height) on Guie gui. */
     public TileSelectPanel(int x, int y, int width, int height, GUI gui) {
         this.gui = gui;
 

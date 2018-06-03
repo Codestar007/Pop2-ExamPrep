@@ -37,7 +37,7 @@ public class Node {
     }
 
     /**
-     * Constructor: an instance with id givenId and tile t
+     * ConstructorExamples.Constructor: an instance with id givenId and tile t
      */
     /* package */ Node(long givenId, Tile t) {
         id = givenId;

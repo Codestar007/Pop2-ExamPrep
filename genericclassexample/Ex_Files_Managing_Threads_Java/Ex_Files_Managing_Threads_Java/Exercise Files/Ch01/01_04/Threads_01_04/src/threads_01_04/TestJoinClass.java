@@ -9,7 +9,7 @@ package threads_01_04;
  * @author MFisher
  */
 public class TestJoinClass extends Thread{
-    //Constructor to assign a user defined name to the thread
+    //ConstructorExamples.Constructor to assign a user defined name to the thread
     public TestJoinClass(String name)
     {
         super(name);

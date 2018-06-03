@@ -1,6 +1,6 @@
 public class EggLaying extends AnimalImpl {
     /**
-     * Constructor
+     * ConstructorExamples.Constructor
      */
     public EggLaying(String name, String type, String sound, String subType) {
         super(name, type, sound, subType);

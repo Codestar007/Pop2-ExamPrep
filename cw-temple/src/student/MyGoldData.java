@@ -19,7 +19,7 @@ public class MyGoldData {
     private Integer goldAvailable; // Amount of Gold
 
     /**
-     * Constructor.
+     * ConstructorExamples.Constructor.
      * @param costBenefit Cost benefit ratio of getting this gold pile
      * @param cost Path cost
      * @param node Target Gold node

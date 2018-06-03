@@ -10,7 +10,7 @@ public final class Pair<X, Y> {
     private Y second;
 
     /**
-     * Constructor: an instance (x, y).
+     * ConstructorExamples.Constructor: an instance (x, y).
      */
     public Pair(X x, Y y) {
         first = x;

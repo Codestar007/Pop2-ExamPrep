@@ -18,8 +18,16 @@ public class various {
         list.add(2, "T");
         list.add("u");
         System.out.println("ArrayList list: " + list);
-
     }
+
+    /*
+    The declarations double[] scores and double... scores are equivalent.
+    but when using double... scores in a method parameter, it must be the last parameter
+     */
+    public String hello(int i, int j, double...scores){
+        return null;
+    }
+
     public static String getInfo(Integer age, String myName){
         //ArrayList myList = new ArrayList(Arrays.asList("WE", "Are", "Doing", "Fine"));
         List<Integer> list = new ArrayList<>();

@@ -35,7 +35,7 @@ public class ExplorerSprite extends JPanel {
     private double ANIMATION_FPS = 10;    //Number of animation frames displayed per second
 
     /**
-     * Constructor:  an instance with player;'s starting position (startRow, startCol).
+     * ConstructorExamples.Constructor:  an instance with player;'s starting position (startRow, startCol).
      */
     public ExplorerSprite(int startRow, int startCol) {
         //Initialize fields
@@ -192,7 +192,7 @@ public class ExplorerSprite extends JPanel {
         final int yDiff;
 
         /**
-         * Constructor: an instance with change (Xdiff, yDiff).
+         * ConstructorExamples.Constructor: an instance with change (Xdiff, yDiff).
          *
          * @param xChange The change in the x coordinate to make this move
          * @param yChange The change in the y coordinate to make this move

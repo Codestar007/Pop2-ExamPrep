@@ -25,7 +25,7 @@ public class Cavern {
     private final Node[][] tiles;
 
     /**
-     * Constructor: an instance of size (rws, cls) .
+     * ConstructorExamples.Constructor: an instance of size (rws, cls) .
      * Use rand as a source of randomness for the cavern generation.
      * Use {@code edgeWeightGenerator} and {@code goldGenerator} to generate edge weights and gold values.
      * Precondition: {@code targetType} must be either {@code Tile.Type.ORB} or {@code Tile.Type.ENTRANCE}.
@@ -63,7 +63,7 @@ public class Cavern {
     }
 
     /**
-     * Constructor: an instance using givenGraph, givenTiles, and target trgt.
+     * ConstructorExamples.Constructor: an instance using givenGraph, givenTiles, and target trgt.
      * Preconditions:
      * 1. {@code givenGraph} and {@code givenTiles} represent the same graph
      * (i.e. {@code givenGraph} contains all non-floor nodes in
@@ -448,7 +448,7 @@ public class Cavern {
         private final Point dir;
 
         /**
-         * Constructor: an instance indirection (row, col).
+         * ConstructorExamples.Constructor: an instance indirection (row, col).
          */
         private Direction(int row, int col) {
             dir = new Point(row, col);
@@ -470,7 +470,7 @@ public class Cavern {
         private final int col;
 
         /**
-         * Constructor: an instance (r, c).
+         * ConstructorExamples.Constructor: an instance (r, c).
          */
         private Point(int r, int c) {
             row = r;

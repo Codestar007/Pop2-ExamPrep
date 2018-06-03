@@ -19,7 +19,7 @@ public class Sprite {
     private int cycle = 0;                //Which cycle of the animation are we at now? (in [0, cycleSize - 1])
 
     /**
-     * Constructor: an instance with image at imageLoc, of size (width, height),
+     * ConstructorExamples.Constructor: an instance with image at imageLoc, of size (width, height),
      * and number of frames in the animation cycleSize.
      */
     public Sprite(String imageLoc, int width, int height, int cycleSize) {

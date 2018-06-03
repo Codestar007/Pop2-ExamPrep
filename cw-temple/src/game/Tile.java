@@ -17,7 +17,7 @@ public class Tile {
     private boolean goldPickedUp;
 
     /**
-     * Constructor: a new Tile at (r, c), with g amount of gold, and Type t.
+     * ConstructorExamples.Constructor: a new Tile at (r, c), with g amount of gold, and Type t.
      */
     public Tile(int r, int c, int g, Type t) {
         row = r;

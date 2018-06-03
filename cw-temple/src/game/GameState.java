@@ -55,14 +55,14 @@ public class GameState implements ExplorationState, EscapeState {
     }
 
     /**
-     * Constructor: a random instance with a GUI only if useGUI is true.
+     * ConstructorExamples.Constructor: a random instance with a GUI only if useGUI is true.
      */
     private GameState(boolean useGui) {
         this((new Random()).nextLong(), useGui);   // dodgy code - should reuse the random number
     }
 
     /**
-     * Constructor: a random instance with a GUI only if useGUI is true.
+     * ConstructorExamples.Constructor: a random instance with a GUI only if useGUI is true.
      * The randomness is based on seed.
      */
     private GameState(long seed, boolean useGui) {

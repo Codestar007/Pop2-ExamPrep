@@ -34,7 +34,7 @@ public class EscapeAgent {
     private Explorer explorer = new Explorer();
 
     /**
-     * Constructor
+     * ConstructorExamples.Constructor
      * @param state the information available at the current state
      */
     public EscapeAgent(EscapeState state) {

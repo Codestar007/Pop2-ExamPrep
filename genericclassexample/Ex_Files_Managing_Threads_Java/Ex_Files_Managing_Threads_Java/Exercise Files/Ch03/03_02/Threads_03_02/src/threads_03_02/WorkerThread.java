@@ -7,7 +7,7 @@ package threads_03_02;
  */
 public class WorkerThread implements Runnable{
     private final String message;  
-    //Constructor to assign a message when creating a new thread
+    //ConstructorExamples.Constructor to assign a message when creating a new thread
     public WorkerThread(String message){  
         this.message=message;  
     }  
