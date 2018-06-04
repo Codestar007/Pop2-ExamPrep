@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import static java.util.stream.Collectors.toList;
+
 /**
  * Created by kjeged01 on 03/06/2018.
  */
@@ -25,7 +27,7 @@ public class University {
     }
     public void run() {
         Map<String, Map<String, Integer>> uni = new HashMap<>();
-        //Map<String, Integer> cs = new HashMap<>();
+
         Map<String, Integer> cs = new HashMap<>();
         cs.put("Information Systems", 300);
         cs.put("Data Management", 300);
@@ -44,12 +46,13 @@ public class University {
 
         System.out.println("Number of departments: " + uni.size());
         System.out.println("Computing programes size: " + uni.get("Computing").size());
-        System.out.println("Engineering dept student total: " + eng.values());
+        System.out.println("Engineering dept student total: " + sum(uni.get("Engineering").values()
+                .stream().collect(toList())));
 
         System.out.println("Hello2");
 
     }
-    private Integer sum(ArrayList<Integer> list){
+    private Integer sum(List<Integer> list){
         Integer total = new Integer(0);
         for(Integer i: list){
             total = total + i;
